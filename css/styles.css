@@ -137,7 +137,7 @@ div.project-box{
 }
 
 div.box-pr1-1, div.box-pr2-1, div.box-pr3-1, div.box-pr4-1, div.box-pr5-1, div.box-pr6-1{
-	height: 22em;
+	height: 13em;
 }
 
 div.project-box a{
@@ -435,8 +435,12 @@ a.current-project{
 
 /* END OF PROJECT PAGE STYLES */
 
+@media	only	screen	and	(min-width:	35em)	{ 
 
-
+div.box-pr1-1, div.box-pr2-1, div.box-pr3-1, div.box-pr4-1, div.box-pr5-1, div.box-pr6-1{
+	height: 22em;
+}
+}
 
 @media	only	screen	and	(min-width:	45em)	{ 
 
