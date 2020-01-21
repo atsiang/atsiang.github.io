@@ -323,10 +323,7 @@ div.project-color{
 	display: inline-block;
 }
 
-.nix-project-details{
-	width: 23%;
-	display: inline-block;
-}
+
 
 .project-role h5, .project-details h5, .nix-project-details h5{
 	font-family: 'Krona One', sans-serif;
@@ -469,6 +466,11 @@ h1{
 
 .mf-box p{
 	width: 85%;
+}
+	
+.nix-project-details{
+	width: 23%;
+	display: inline-block;
 }
 
 
