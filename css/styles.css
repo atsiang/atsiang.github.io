@@ -318,12 +318,6 @@ div.project-color{
 	display: inline-block;
 }
 
-.project-details{
-	width: 30%;
-	display: inline-block;
-}
-
-
 
 .project-role h5, .project-details h5, .nix-project-details h5{
 	font-family: 'Krona One', sans-serif;
@@ -473,6 +467,13 @@ h1{
 	display: table-cell;
 	padding-right:2%;
 }
+	
+.project-details{
+	width: 30%;
+	display: table-cell;
+}
+
+
 
 
 }
