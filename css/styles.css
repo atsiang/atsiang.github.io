@@ -469,8 +469,9 @@ h1{
 }
 	
 .nix-project-details{
-	width: 23%;
-	display: inline-block;
+	width: 22%;
+	display: table-cell;
+	padding-right:2%;
 }
 
 
