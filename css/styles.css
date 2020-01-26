@@ -30,6 +30,10 @@ h1{
 	display: block;
 }
 
+.wave{
+	display: none;
+}
+
 /* NAV STYLES*/
 
 
@@ -844,7 +848,18 @@ footer{
 	
 			/* END DIV FLIP STYLES */
 
+/* CONTACT STYLES */
 
+.wave{
+    display: block;
+	width: 30%;
+    position: absolute;
+    bottom: -1em;
+    right: 23%;
+}
+
+
+/* END OF CONTACT STYLES */
 
 	
 	}
@@ -867,9 +882,12 @@ footer{
 	width: 70%;
 }
 	
-	.contact p{
-		width: 75%;
-	}
+.contact p{
+	width: 75%;
+}
+.wave{
+	width: 26%;
+}
 
 }
 		
@@ -922,6 +940,9 @@ div.box-4, div.box-5, div.box-8{
 div.box-see-1, div.box-eat-1, div.box-do-1{
 	background-position: center center;
 }
+.wave{
+	width: 22%;
+}
 
 
 }
@@ -942,6 +963,7 @@ div.box-see-1, div.box-eat-1, div.box-do-1{
   div.box-4, div.box-5, div.box-8{
   	border: none;
   }
+	
   
   
   	.back{
