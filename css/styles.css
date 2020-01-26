@@ -424,6 +424,33 @@ a.current-project{
 	margin-bottom: 4em;
 }
 
+/* CONTACT STYLES */
+
+.contact p{
+	font-size: 1.5em;
+}
+
+.contact p a:link{
+	color: #F7734F;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.contact p a:visited{
+	color: #F7734F;
+}
+
+.contact p a:hover{
+	color: #73D8C5;
+}
+
+.contact p a:active{
+	color: #78A1F4;
+}
+
+
+/* END OF CONTACT STYLES */
+
 /* END OF PROJECT PAGE STYLES */
 
 @media	only	screen	and	(min-width:	35em)	{ 
