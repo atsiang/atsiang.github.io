@@ -208,6 +208,7 @@
 $(window).on('load', function () {
     var viewportWidth = $(window).width();
     if (viewportWidth > 1199) {
+	    $(".dsa-card").addClass("flipped");
 	    $(".dsa-card").css('backface-visibility', 'visible');
             $(".karaoke-card").removeClass("flipped");  
     }
