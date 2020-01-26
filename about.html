@@ -148,7 +148,7 @@
 			</div>
 		</div>
 		
-		<div class="container click-effect flipped">
+		<div class="container click-effect flipped karaoke-card">
 			<div class="front eat-4-front">
 			</div>
 			<div class="back eat-4-back">
@@ -157,7 +157,7 @@
 			</div>
 		</div>
 
-		<div class="container click-effect flipped">
+		<div class="container click-effect flipped dsa-card">
 			<div class="front eat-5-front"><a href="https://www.instagram.com/ysdndsa/" target="_blank" class="title-link">Community Builder</a>
 			<p class="back-p">As the former Chair of the Design Students Association, I love planning events to bring the YSDN community together.</p>	
 			</div>
@@ -206,6 +206,14 @@
     });
   }
 })();
+	
+$(window).resize(function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth > 1199) {
+            $(".karaoke-card").removeClass("flipped");
+	    $(".dsa-card").addClass("flipped");
+    }
+});
 </script>
  <script src="js/jquery-1.11.2.min.js"></script>
  <script type="text/javascript">
