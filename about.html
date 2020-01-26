@@ -191,23 +191,7 @@
 
 </div>
 
-<script>
-	(function() {
-  var cards = document.querySelectorAll(".container.click-effect");
-  for ( var i  = 0, len = cards.length; i < len; i++ ) {
-    var card = cards[i];
-    clickListener( card );
-  }
 
-  function clickListener(card) {
-    card.addEventListener( "click", function() {
-      var c = this.classList;
-      c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
-    });
-  }
-})();
-	
-</script>
  <script src="js/jquery-1.11.2.min.js"></script>
  <script type="text/javascript">
 	function NavShow(){
@@ -229,7 +213,24 @@ $(window).on('load', function () {
 	    
     }
 });
-</script>	
+</script>
+	<script>
+	(function() {
+  var cards = document.querySelectorAll(".container.click-effect");
+  for ( var i  = 0, len = cards.length; i < len; i++ ) {
+    var card = cards[i];
+    clickListener( card );
+  }
+
+  function clickListener(card) {
+    card.addEventListener( "click", function() {
+      var c = this.classList;
+      c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
+    });
+  }
+})();
+	
+</script>
 </body>
 
 
