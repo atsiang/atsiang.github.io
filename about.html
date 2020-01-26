@@ -221,7 +221,7 @@
 </script>
 
 <script>
-$(window).load(function () {
+$(window).on('load', function () {
     var viewportWidth = $(window).width();
     if (viewportWidth > 1199) {
             $(".karaoke-card").removeClass("flipped");
