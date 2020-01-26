@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en" class="work">
+<html lang="en" class="contact">
 
 <head>
 	<meta charset="utf-8">
@@ -72,34 +72,9 @@
 <h3><span class="marquee-t">hello!</span> <span class="marquee-y">salut!</span> <span class="marquee-b">¡hola!</span> <span class="marquee-c">ni hao!</span><span class="marquee-t"> hello!</span> <span class="marquee-y">salut!</span> <span class="marquee-b">¡hola!</span> <span class="marquee-c">ni hao!</span></h3>
 </div>
 
- <p>Hey! I love meeting new people so if you'd like to grab bubble tea and have a chat about my work, comics, or anything else, you can drop a line below: or you can connect with me on <a href="https://www.linkedin.com/in/amanda-tsiang/">LinkedIn</a>!</p>
+ <p>Hey! I love meeting new people so if you'd like to grab bubble tea and have a chat about my work, comics, or anything else, you can <a href="mailto:amandajtsiang@gmail.com">drop me a line</a> or you can connect with me on <a href="https://www.linkedin.com/in/amanda-tsiang/">LinkedIn</a>!</p>
 <div id="contact-me">
-					<form method="post" action="mail.php" onsubmit="return checkForm();">
-						<label for="firstname">First Name</label>
-							<br>
-							<input type="text" name="pfirstname" id="firstname" class="your-info" maxlength="25" placeholder="What do I call you?" required>
-							<br>
-							<br>
-							<label for="lastname">Last Name</label>
-							<br>
-							<input type="text" name="plastname" id="lastname" class="your-info" maxlength="25" placeholder="What do I call you?" required>
-							<br>
-							<br>
-						<label for="email">E-mail</label>
-							<br>
-							<input type="text" name="pemail" id="email" class="your-info" placeholder="How do I reach you?" required>
-							<br>
-							<br>
-						<label for="message">Your message</label>
-							<br>
-							<textarea name="pmessage" id="message" class="your-info" cols="12" rows="12" maxlength="450" placeholder="What's on your mind?" required></textarea>
-							<br>
-							<br>
-						<input type="submit" name="psubmit" id="submit" value="Send" class="send-btn">
-					</form>
-				</div>	
-	
-	
+
 
 
 </div>
@@ -116,24 +91,7 @@
 	else{
 	$(".navigation").css('display' , 'none');}
 }
-	 	function checkForm(){
-		var jemail;
-		jemail = document.getElementById("email").value;
-		var atpos;
-		var dotpos;
-		atpos = jemail.indexOf("@");
-		dotpos = jemail.lastIndexOf(".");
-		if (atpos<1 || dotpos<atpos+2 || dotpos+2>=jemail.length){
-			alert("Please enter a valid e-mail address.");
-			return false;
-		}
-		if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(jemail))
- 		 {
-    		return (true)
-  			}
-    	alert("You have entered an invalid email address!")
-    		return (false)
-	}
+
 </script>
 
 </body>
