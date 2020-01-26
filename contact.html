@@ -116,6 +116,24 @@
 	else{
 	$(".navigation").css('display' , 'none');}
 }
+	 	function checkForm(){
+		var jemail;
+		jemail = document.getElementById("email").value;
+		var atpos;
+		var dotpos;
+		atpos = jemail.indexOf("@");
+		dotpos = jemail.lastIndexOf(".");
+		if (atpos<1 || dotpos<atpos+2 || dotpos+2>=jemail.length){
+			alert("Please enter a valid e-mail address.");
+			return false;
+		}
+		if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(jemail))
+ 		 {
+    		return (true)
+  			}
+    	alert("You have entered an invalid email address!")
+    		return (false)
+	}
 </script>
 
 </body>
