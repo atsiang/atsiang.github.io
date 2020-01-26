@@ -11,7 +11,7 @@ if($_POST['psubmit']) {
 	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 	
 	if(mail ($to, $subject, $body, $from)){
-		echo '<script type="text/javascript">alert("Thanks, your message has been sent!"); location="/contact.html"</script>';
+		echo '<script type="text/javascript">alert("Thanks, your message has been sent!"); location="http://amandatsiang.design/contact.html"</script>';
 	}
 	
 	else{
