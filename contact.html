@@ -72,8 +72,32 @@
 <h3><span class="marquee-t">hello!</span> <span class="marquee-y">salut!</span> <span class="marquee-b">¡hola!</span> <span class="marquee-c">ni hao!</span><span class="marquee-t"> hello!</span> <span class="marquee-y">salut!</span> <span class="marquee-b">¡hola!</span> <span class="marquee-c">ni hao!</span></h3>
 </div>
 
- <p>Hey! I love meeting new people so if you'd like to grab bubble tea and have a chat about my work, comics, or anything else, you can drop a line at <a href="mailto:amandajtsiang@gmail.com"> amandajtsiang@gmail.comt</a> or you can connect with me on <a href="https://www.linkedin.com/in/amanda-tsiang/">LinkedIn</a>!</p>
-	
+ <p>Hey! I love meeting new people so if you'd like to grab bubble tea and have a chat about my work, comics, or anything else, you can drop a line below: or you can connect with me on <a href="https://www.linkedin.com/in/amanda-tsiang/">LinkedIn</a>!</p>
+<div id="contact-me">
+					<form method="post" action="mail.php" onsubmit="return checkForm();">
+						<label for="firstname">First Name</label>
+							<br>
+							<input type="text" name="pfirstname" id="firstname" class="your-info" maxlength="25" placeholder="What do I call you?" required>
+							<br>
+							<br>
+							<label for="lastname">Last Name</label>
+							<br>
+							<input type="text" name="plastname" id="lastname" class="your-info" maxlength="25" placeholder="What do I call you?" required>
+							<br>
+							<br>
+						<label for="email">E-mail</label>
+							<br>
+							<input type="text" name="pemail" id="email" class="your-info" placeholder="How do I reach you?" required>
+							<br>
+							<br>
+						<label for="message">Your message</label>
+							<br>
+							<textarea name="pmessage" id="message" class="your-info" cols="12" rows="12" maxlength="450" placeholder="What's on your mind?" required></textarea>
+							<br>
+							<br>
+						<input type="submit" name="psubmit" id="submit" value="Send" class="send-btn">
+					</form>
+				</div>	
 	
 	
 
