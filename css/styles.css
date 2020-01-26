@@ -160,6 +160,10 @@ div.project-color{
 
 /* ABOUT STYLES */
 
+.ily{
+	width: 30px;
+	height: 30px;
+}
 .eat p{
 	text-align: center;
 }
