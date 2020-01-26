@@ -208,9 +208,8 @@
 $(window).on('load', function () {
     var viewportWidth = $(window).width();
     if (viewportWidth > 1199) {
-	    $(".dsa-card").addClass("flipped");
-            $(".karaoke-card").removeClass("flipped");
-	    
+	    $(".dsa-card").css('backface-visibility', 'visible');
+            $(".karaoke-card").removeClass("flipped");  
     }
 });
 </script>
@@ -227,6 +226,7 @@ $(window).on('load', function () {
       var c = this.classList;
       c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
     });
+	 
   }
 })();
 	
