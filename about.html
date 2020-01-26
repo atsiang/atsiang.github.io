@@ -207,13 +207,6 @@
   }
 })();
 	
-$(window).resize(function () {
-    var viewportWidth = $(window).width();
-    if (viewportWidth > 1199) {
-            $(".karaoke-card").removeClass("flipped");
-	    $(".dsa-card").addClass("flipped");
-    }
-});
 </script>
  <script src="js/jquery-1.11.2.min.js"></script>
  <script type="text/javascript">
@@ -227,7 +220,15 @@ $(window).resize(function () {
 }
 </script>
 
-
+<script>
+	$(window).resize(function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth > 1199) {
+            $(".karaoke-card").removeClass("flipped");
+	    $(".dsa-card").addClass("flipped");
+    }
+});
+</script>	
 </body>
 
 
