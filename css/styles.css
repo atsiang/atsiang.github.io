@@ -180,12 +180,13 @@ div.project-color{
 }
 
 .friends-link:hover{
-	color: black;
+	color: #F7734F;
 	text-decoration: none;
 }
 
 .friends-link:active{
 	color: #F7734F;
+	opacity: 0.65;
 	text-decoration: none;
 }
 
