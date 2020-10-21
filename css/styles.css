@@ -169,6 +169,11 @@ div.project-color{
 	text-align: center;
 }
 
+.friends-link:link{
+	color: black;
+	text-decoration: none;
+}
+
 /* MARQUEE*/
 .marquee {
  height: 50px;	
