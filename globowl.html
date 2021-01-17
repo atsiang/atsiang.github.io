@@ -1,0 +1,176 @@
+<!doctype html>
+
+<html lang="en" class="nix">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Ciyu - Amanda Tsiang</title>
+	<meta name="description" content="Ciyu is an app created to facilitate event-planning between friends.">
+	
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Krona+One|Nunito+Sans:300,400&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156549100-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156549100-1');
+</script>
+	<script type="text/javascript">
+	
+	function rotatePlus(){
+	var checkmenu = document.getElementById("dropdown");
+	var plusx = document.getElementById("plus-x");
+	if (checkmenu.style.display === "none"){
+		plusx.style.transform="rotateZ(90deg)";
+		plusx.style.transition="transform 0.5s";
+		}
+	else{
+		checkmenu.style.display === "none";
+		plusx.style.transform="rotateZ(45deg)";
+		plusx.style.transition="transform 0.5s";
+		}
+	}
+
+	</script>	
+</head>
+
+
+
+<body class="project-page">
+
+
+
+<header>
+<a href="index.html" > <img src="img/redlogo-01.svg" alt="logo" class="main-logo"></a>
+
+
+	<nav>
+		<a class="hide-text menu" id="plus-x" onclick="NavShow(); rotatePlus();"></a>
+		<ul class="navigation" id="dropdown">
+			<li><a href="index.html"> work </a></li>
+			<li><a href="about.html"> about </a></li>
+	<!--	<li><a href="play.html"> play </a></li>  -->
+			<li><a href="http://amandatsiang.design/cv_updated_w2021.pdf" target="_blank"> resume </a></li>
+			<li><a href="contact.html"> contact</a></li>
+	</ul>
+	</nav>
+	
+	
+	
+</header>
+<div class="master-div">
+
+<img src="img/globowl-main.png" alt="" class="project-page-img">
+
+<div class="project-details">
+<h5>Timeline</h5>
+<p>Jul-Sep '20 (12 weeks)</p>
+</div>
+
+<div class="project-details m-bottom-4">
+<h5>Tools</h5>
+<p>Figma, Adobe Illustrator </p>
+</div>
+
+
+<div>	
+<div class="m-bottom-4">
+<h4>The Challenge</h4>
+<h3>How Can We Make Event Planning Between Friends Easier?</h3>
+
+<p>Friends have a  <span class="bolded">hard time making plans with each other</span> when they’re in large groups. When it comes to picking a time or place or activity, it can be hard to manage everyone’s availabilities and interests in a group chat. Even with the polls included in Messenger,  <span class="bolded">information can be easily missed when scrolling through a group chat</span> and it’s not always easy to jump to a poll unless someone has recently answered it. </p>
+</div>
+
+
+<h4> My Solution </h4>
+<h3> Viewing Everyone's Availability and Budget in One Place </h3>
+
+<p><a href="https://projects.invisionapp.com/share/EDPD77APR2G" target="_blank">Ciyu</a> is an event-planning app made for you and your frends. It facilitates communication between friends while planning an outing by providing spaces to answer specific questions and <span class="bolded">compiling everyone’s availabilities and budgets in one place</span> when creating an event rather than making you scroll through a long string of message in a group chat.</p>
+
+<img src="img/ciyu-hand.jpg" alt="" class="project-page-img">
+
+<p class="m-bottom-4">  When creating or replying to a plan, users have the option to <span class="bolded">select tags that represent what they are interested in</span>. This can be for types of activities or for particular locations. Ciyu also features a budget slider that allows users to <span class="bolded">easily select how much they’re willing to spend</span> at a given event. All of this information is collected from each participant before creating a chat for the event to ensure that everyone has answered all the important questions.  Users can also view upcoming and pending plans in the Calendar as well as view matching availabilities with friends, which encourages them to make plans together. </p>
+
+<div class="m-bottom-4">
+<h4>Process</h4>
+<h3>User Personas</h3>
+
+<p>I wanted to better understand my users and their problems in order to create my app, so I talked to other students and working people about the ways in which they go about planning events among friends. Based on these conversations, I made two user personas <!-- as well as a <a href="">PACT analysis</a> --> : </p>
+
+<img src="img/ciyu-persona-01.jpg" alt="" class="project-page-img">
+<img src="img/ciyu-persona-02.jpg" alt="" class="postcard-page-img">
+
+<h3>Mockups</h3>
+<p>I went through a few iterations of designs since my original ones were very flat and buttons didn't look like they were buttons. I also pared down the colors a bit and made the app mostly white, using the colors more for accents than for backgrounds.</p>
+<img src="img/ciyu-mockup-01.jpg" alt="" class="postcard-page-img">
+<img src="img/ciyu-mockup-02.jpg" alt="" class="postcard-page-img">
+<img src="img/ciyu-mockup-03.jpg" alt="" class="postcard-page-img">
+	
+</div>
+
+<h3> User Flows </h3>
+<img src="img/ciyu-userflow-01.jpg" alt="" class="postcard-page-img">
+<img src="img/ciyu-userflow-02.jpg" alt="" class="postcard-page-img">
+<img src="img/ciyu-userflow-03.jpg" alt="" class="postcard-page-img">
+
+<h3> Visuals </h3>
+<p>Four colors were picked to represent the app: orange, yellow, turquoise and lavender. These colors were chosen to reflect a bright, happy experience for users.</p>
+
+<img src="img/ciyu-type.jpg" alt="" class="project-page-img">
+
+<p>While different types of animals and inanimate objects were explored in terms of what to use as a mascot, a waving hand was selected to represent the idea that your friends are only a plan away. The use of the mascot Pom (a play on the word “palm”) across the app further reinforced the friendly and welcoming vibe of the app. </p>
+
+<img src="img/ciyu-mascot.png" alt="" class="project-page-img">
+
+
+<h3>Final Outcome & Takeaways</h3>
+
+<p class="m-bottom-4">This was my first time prototyping a mobile app rather than a website so it was interesting how my approach to it was so different since I didn’t have to code it. It made me a lot more aware of the various interactions on phones that have become so commonplace. While some other types of design projects have a lot more freedom, I had to be much more careful of “overdesigning” this one. This project was the most I’ve ever had to focus on usability, which seemed difficult at first because there was so much information to deal with and so many possible paths that a user could take. 
+<br>
+<br>
+
+There were many other features I wanted to include in the app, but could not because of time constraints and because I was afraid that adding too many features might make it too complicated or confusing to use. Perhaps if I were to rework this project, I might include a couple of the original features that I scrapped. 
+<br>
+<br>
+The Figma prototype can be viewed <a href="https://www.figma.com/proto/o1GZCdRV2KGd9kLDdJoYkI/globowl-final?node-id=559%3A268&scaling=scale-down" target="_blank">here</a>.</p>
+
+
+
+
+</div>
+
+<div class="other-projects"> 
+	<ul>
+		<li><a href="globowl.html" class="current-project"> globowl </a></li>
+		<li><a href="tcaf.html"> tcaf rebrand</a></li>
+		<li><a href="reach.html">reach beyond </a></li>
+		<li><a href="nix.html"> nix</a></li>
+		<li><a href="ciyu.html"> ciyu </a></li>
+	</ul>	
+</div>	
+
+</div>
+
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script type="text/javascript">
+	function NavShow(){
+	var topPos = $(".navigation").css("display");
+	if(topPos == 'none'){
+	$('.navigation').css('display' , 'block');
+}
+	else{
+	$(".navigation").css('display' , 'none');}
+}
+</script>
+
+</body>
+
+
+</html>
