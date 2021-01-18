@@ -925,6 +925,29 @@ footer{
 .features-mob{
 	display: none;
 }
+	
+.feature-box{
+	position: relative;
+	margin-top: 2em;
+}
+
+.feature-p-right{
+	position: absolute;
+	top: 10%;
+	width: 50%;
+	right: 0%;
+}
+
+.feature-p-left{
+	position: absolute;
+	top: 10%;
+	width: 50%;
+	left: 0%;
+}
+	
+.gif-35{
+	width: 35%;
+}
 
 
 	
