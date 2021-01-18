@@ -406,8 +406,11 @@ div.project-color{
 	color: white;
 }
 
-.hide-gif-small{
-	display: none;
+.gif-30-mob{
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 2.5em;
 }
 
 .feature-title{
@@ -900,10 +903,6 @@ footer{
 
 
 @media	only screen	and	(min-width:	58em)	{
-.gif-30{
-	width: 30%;
-	display: inline-block;
-}
 
 .feature-p{
 	width: 55%;
@@ -911,24 +910,15 @@ footer{
 	margin-left: 5%;
 }
 
-.feature-p-left{
-	width: 55%;
-	display: inline-block;
-	margin-right: 5%;
-}
-
 .feature-title{
 	line-height: 3em;
 }
 
-.hide-gif-small{
-	width: 30%;
-	display: inline-block;
-}
-
-.hide-gif-large{
+.features-mob{
 	display: none;
 }
+
+
 	
 }
 	
