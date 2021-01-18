@@ -406,6 +406,13 @@ div.project-color{
 	color: white;
 }
 
+.hide-gif-small{
+	display: none;
+}
+
+.feature-title{
+	font-family: 'Krona One', sans-serif;
+}
 
 .other-projects{
 	font-family: 'Krona One', sans-serif;
@@ -905,8 +912,16 @@ footer{
 }
 
 .feature-title{
-	font-family: 'Krona One', sans-serif;
 	line-height: 3em;
+}
+
+.hide-gif-small{
+	width: 30%;
+	display: inline-block;
+}
+
+.hide-gif-large{
+	display: none;
 }
 	
 }
