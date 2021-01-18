@@ -413,6 +413,10 @@ div.project-color{
 	margin-top: 2.5em;
 }
 
+.features-large{
+	display: none;
+}
+
 .feature-title{
 	font-family: 'Krona One', sans-serif;
 }
@@ -912,6 +916,10 @@ footer{
 
 .feature-title{
 	line-height: 3em;
+}
+
+.features-large{
+	display: block;
 }
 
 .features-mob{
