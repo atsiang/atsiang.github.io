@@ -406,6 +406,7 @@ div.project-color{
 	color: white;
 }
 
+
 .other-projects{
 	font-family: 'Krona One', sans-serif;
 	margin: 2em 0;
@@ -888,7 +889,27 @@ footer{
 /* END OF CONTACT STYLES */
 
 	
-	}
+}
+
+
+@media	only screen	and	(min-width:	58em)	{
+.gif-30{
+	width: 30%;
+	display: inline-block;
+}
+
+.feature-p{
+	width: 55%;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.feature-title{
+	font-family: 'Krona One', sans-serif;
+	line-height: 3em;
+}
+	
+}
 	
 	
 @media	only screen	and	(min-width:	75em)	{	
