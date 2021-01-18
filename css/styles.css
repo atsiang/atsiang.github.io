@@ -935,7 +935,7 @@ footer{
 	position: absolute;
 	top: 10%;
 	width: 50%;
-	right: 0%;
+	right: 7%;
 }
 
 .feature-p-left{
@@ -943,6 +943,10 @@ footer{
 	top: 10%;
 	width: 50%;
 	left: 0%;
+}
+
+.gif-right{
+	padding-left: 60%;
 }
 	
 .gif-35{
