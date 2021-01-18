@@ -911,6 +911,12 @@ footer{
 	margin-left: 5%;
 }
 
+.feature-p-left{
+	width: 55%;
+	display: inline-block;
+	margin-right: 5%;
+}
+
 .feature-title{
 	line-height: 3em;
 }
