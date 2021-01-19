@@ -396,6 +396,12 @@ div.project-color{
 	margin: 1em 0;
 }
 
+.persona-img{
+	width: 100%;
+	display: block;
+	margin: 1em;
+}
+
 .project-page a{
 	color: #F7734F;
 	font-weight: 700;
