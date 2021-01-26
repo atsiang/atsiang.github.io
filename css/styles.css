@@ -253,6 +253,26 @@ div.project-color{
  }
 }
 
+.home-marquee h3 {
+ font-size: 1.5em;
+ font-family: "Krona One", sans-serif;
+ position: absolute;
+ width: 160%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: marquee 12s linear infinite;
+ -webkit-animation: marquee 12s linear infinite;
+ animation: marquee 12s linear infinite;
+}
+
+
 /* END OF MARQUEE STYLES */
 
 .eat .container{
