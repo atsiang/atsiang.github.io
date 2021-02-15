@@ -70,9 +70,11 @@
 </header>
 <div class="master-div">
 
-<div id="marquee">
+<h1 class="page-title">About Me </h1>
+
+ <!-- <div id="marquee">
 <h1>Designer • Illustrator • Language Lover • Comic Book Geek • Ukulele Player • Karaoke Enthusiast  • Community Builder • Snail Mailer • Designer • Illustrator • Language Lover • Comic Book Geek • Ukulele Player • Karaoke Enthusiast  • Community Builder • Snail Mailer • Designer • Illustrator • Language Lover • Comic Book Geek • Ukulele Player • Karaoke Enthusiast  • Community Builder • Snail Mailer • </h1>
-</div>
+</div> -->
 	
 <div class="mobile-facts about-me">
 	<div>
@@ -111,9 +113,7 @@
 			
 </div>
 
-<div id="marquee2">
-<p class="home-marquee">have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • </p>
-</div>	
+
 
 <!-- Desktop Flippy Image -->
 <div class="community-box">
@@ -148,13 +148,15 @@
 		</figure>
 
 </div>
+</div>
+
 <a href="play.html"><img src="img/fun-stuff.gif" class="circle-gif"></a>
 
 
  <script src="js/jquery-1.11.2.min.js"></script>
  
  <!-- CARD FLIP SCRIPT -->
- <script type="text/javascript">
+ <script>
 	function NavShow(){
 	var topPos = $(".navigation").css("display");
 	if(topPos == 'none'){
@@ -193,56 +195,8 @@ $(window).on('load', function () {
 </script>
 
 
-<!-- MARQUEE SCRIPT -->
-<script type="text/javascript">
-	window.addEventListener('load', function () {
-	function go() {
-		i = i < width ? i + step : 1;
-		m.style.marginLeft = -i + 'px';
-	}
-	var i = 0,
-		step = 2,
-		space = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
-	var m = document.getElementById('marquee');
-	var t = m.innerHTML; //text
-	m.innerHTML = t + space;
-	m.style.position = 'absolute'; // http://stackoverflow.com/questions/2057682/determine-pixel-length-of-string-in-javascript-jquery/2057789#2057789
-	var width = (m.clientWidth + 1);
-	m.style.position = '';
-	m.addEventListener('mouseenter', function () {
-		step = 0;
-	}, true);
-	m.addEventListener('mouseleave', function () {
-		step = 2;
-	}, true);
-	var x = setInterval(go, 20);
-}, true);
-</script>
 
-<script type="text/javascript">
-	window.addEventListener('load', function () {
-	function go() {
-		i = i < width ? i + step : 1;
-		m.style.marginLeft = -i + 'px';
-	}
-	var i = 0,
-		step = 2,
-		space = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
-	var m = document.getElementById('marquee2');
-	var t = m.innerHTML; //text
-	m.innerHTML = t + space;
-	m.style.position = 'absolute'; // http://stackoverflow.com/questions/2057682/determine-pixel-length-of-string-in-javascript-jquery/2057789#2057789
-	var width = (m.clientWidth + 1);
-	m.style.position = '';
-	m.addEventListener('mouseenter', function () {
-		step = 0;
-	}, true);
-	m.addEventListener('mouseleave', function () {
-		step = 2;
-	}, true);
-	var x = setInterval(go, 20);
-}, true);
-</script>
+
 
 <footer>
 	<p>find me elsewhere: <a href="https://www.linkedin.com/in/amanda-tsiang/" target="_blank"><img src="img/linkedin.svg"></a> <a href="https://www.instagram.com/manda.aiai/" target="_blank"><img src="img/instagram.svg" ></a> <a href="https://open.spotify.com/user/mcpanda67?si=uT_V4iyGRFyU8eLB4E0jEQ"  target="_blank"><img src="img/spotify.svg"></a></p>
