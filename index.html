@@ -4,12 +4,13 @@
 
 <head>
 	<meta charset="utf-8">
-
+<!-- omg please I told you not to look at my code, she's messy :( -->
 	<title>Amanda Tsiang</title>
 	<meta name="description" content="Hey! I'm Amanda, a Toronto-based designer interested in seeing how design can bring people together.">
 	
 	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Krona+One|Nunito+Sans:300,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,85 +44,114 @@
 
 
 
-<body>
+<body class="home">
 
 
 
 <header>
-<a href="index.html" > <img src="img/redlogo-01.svg" alt="logo" class="main-logo"></a>
 
 
 	<nav>
+		<a href="index.html" class="logo"></a>
 		<a class="hide-text menu" id="plus-x" onclick="NavShow(); rotatePlus();"></a>
 		<ul class="navigation" id="dropdown">
-			<li><a href="index.html"> work </a></li>
+			<li><a href="work.html"> work </a></li>
+			<li class="star"></li>
 			<li><a href="about.html"> about </a></li>
+			<li class="star"></li>
 	<!--	<li><a href="play.html"> play </a></li>  -->
 			<li><a href="http://amandatsiang.design/cv_updated_w2021.pdf" target="_blank"> resume </a></li>
+			<li class="star"></li>
 			<li><a href="contact.html"> contact</a></li>
 	</ul>
+	
 	</nav>
 	
 	
 	
 </header>
-<div class="master-div">
 
-<!--<div class="home-marquee">	
-	<h3><span class="marquee-t">designer • </span> <span class="marquee-y">illustrator • </span> <span class="marquee-b">spotify enthusiast • </span> <span class="marquee-c">community builder • </span><span class="marquee-t">snail mailer • </span> </h3>	
-</div> -->	
-	
-	<div class="project-square sq1">
-		<div class="box-pr1-1 project-box">
-		</div>
-		<div class="box-pr1-2 project-box">
-		<a href="globowl.html" class="project-title"><div class="pr1 project-color">Globowl App</div></a>
-		</div>
-	</div>
-	
-	<div class="project-square sq2">
-	<div class="box-pr2-1 project-box">
-		</div>
-		<div class="box-pr2-2 project-box">
-		<a href="tcaf.html" class="project-title"><div class="pr2 project-color">TCAF Rebrand</div></a>
-		</div>
-	</div>
-	
-	<div class="project-square sq3">
-	<div class="box-pr3-1 project-box">
-		</div>
-		<div class="box-pr3-2 project-box">
-		<a href="reach.html" class="project-title"><div class="pr3 project-color">Reach Postcards</div></a>
-		</div>
-	</div>
-	
-	<div class="project-square sq4">
-	<div class="box-pr4-1 project-box">
-		</div>
-		<div class="box-pr4-2 project-box">
-		<a href="nix.html" class="project-title"><div class="pr4 project-color">Nix Smart Nicotine Band</div></a>
-		</div>
-	</div>
-	
-		<div class="project-square sq5">
-	<div class="box-pr5-1 project-box">
-		</div>
-		<div class="box-pr5-2 project-box">
-		<a href="ciyu.html" class="project-title"><div class="pr5 project-color">Ciyu Event Planning App</div></a>
-		</div>
-	</div>
-	
-	<div class="project-square sq6">
-	<div class="box-pr6-1 project-box">
-		</div>
-		<div class="box-pr6-2 project-box">
-		<a href="#" class="project-title"><div class="pr6 project-color">afterskool App: Coming Soon!</div></a>
-		</div>
-	</div>
-	
-
+<div class="home-header">
+	<h1>Hey, nice to meet you! I'm <a href="about.html" class="my-name">Amanda</a>:</h1>
+	<h2>Your friendly neighbourhood designer, illustrator and karaoke enthusiast <img src="img/heart-red.svg" class="red-heart"></h2>
 </div>
 
+
+<div class="master-div">
+
+	<h2 class="featured">Featured Works</h2>
+	<div class="pro-box">
+		<a href="globowl.html" class="pro-img pro-1"></a>
+		<div class="pro-title">
+		<a href="globowl.html" class="project-name">Globowl</a>
+		<p class="project-type">UX/UI, Illustration</p>
+		</div>
+	</div>
+	
+	<div class="pro-box">
+		<a href="tcaf.html" class="pro-img pro-2"></a>
+		<div class="pro-title">
+		<a href="tcaf.html" class="project-name">TCAF Rebrand</a>
+		<p class="project-type">Branding, llustration</p>
+		</div>
+	</div>
+	
+	<div class="pro-box">
+		<a href="nix.html" class="pro-img pro-3"></a>
+		<div class="pro-title">
+		<a href="nix.html" class="project-name">Nix</a>
+		<p class="project-type">Web Design, Illustration</p>
+		</div>
+	</div>
+	
+	<div class="pro-box hide-box">
+		<a href="ciyu.html" class="pro-img pro-4"></a>
+		<div class="pro-title">
+		<a href="ciyu.html" class="project-name">Ciyu</a>
+		<p class="project-type">UX/UI, Illustration</p>
+		</div>
+	</div>
+	
+	<a href="work.html" class="view-more all-projects">View all projects</a>
+
+<!-- HOME MARQUEE -->
+<div id="marquee">
+<p class="home-marquee">have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • have a super duper day • passe une super belle journée • que tengas un día maravilloso • </p>
+</div>	
+	
+<!-- VALUES -->
+<h2 class="featured">My Values</h2>
+
+		<figure class="value-fig">
+		<img src="img/heart.svg">
+		<figcaption>Heart</figcaption>
+		<p>I believe anything worth doing should be done with love, care and attention.</p>
+		</figure>
+		
+		<figure class="value-fig">
+		<img src="img/growth.svg">
+		<figcaption>Growth</figcaption>
+		<p>With humility and curiosity, I constantly look for ways to learn, improve and grow .</p>
+		</figure>	
+		
+		<figure class="value-fig">
+		<img src="img/positivity.svg">
+		<figcaption>Positivity</figcaption>
+		<p>I look out for the bright sides of life and seek to create positive change in the world.</p>
+		</figure>	
+		
+		<figure class="value-fig">
+		<img src="img/openness.svg">
+		<figcaption>Openness</figcaption>
+		<p>Transparency and honesty are essential when it comes to clear communication. </p>
+		</figure>	
+
+	<a href="about.html" class="view-more more-about">Learn more about me</a>
+
+
+
+</div>
+<a href="play.html"><img src="img/fun-stuff.gif" class="circle-gif"></a>
 
 
  <script src="js/jquery-1.11.2.min.js"></script>
@@ -136,7 +166,35 @@
 }
 </script>
 
+<!-- MARQUEE SCRIPT -->
+<script type="text/javascript">
+	window.addEventListener('load', function () {
+	function go() {
+		i = i < width ? i + step : 1;
+		m.style.marginLeft = -i + 'px';
+	}
+	var i = 0,
+		step = 2,
+		space = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+	var m = document.getElementById('marquee');
+	var t = m.innerHTML; //text
+	m.innerHTML = t + space;
+	m.style.position = 'absolute'; // http://stackoverflow.com/questions/2057682/determine-pixel-length-of-string-in-javascript-jquery/2057789#2057789
+	var width = (m.clientWidth + 1);
+	m.style.position = '';
+	m.addEventListener('mouseenter', function () {
+		step = 0;
+	}, true);
+	m.addEventListener('mouseleave', function () {
+		step = 2;
+	}, true);
+	var x = setInterval(go, 20);
+}, true);
+</script>
 
+<footer>
+	<p>find me elsewhere: <a href="https://www.linkedin.com/in/amanda-tsiang/" target="_blank"><img src="img/linkedin.svg"></a> <a href="https://www.instagram.com/manda.aiai/" target="_blank"><img src="img/instagram.svg" ></a> <a href="https://open.spotify.com/user/mcpanda67?si=uT_V4iyGRFyU8eLB4E0jEQ"  target="_blank"><img src="img/spotify.svg"></a></p>
+</footer>
 </body>
 
 

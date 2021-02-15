@@ -1,12 +1,12 @@
 <!doctype html>
 
-<html lang="en" class="contact">
+<html lang="en" class="work">
 
 <head>
 	<meta charset="utf-8">
 <!-- omg please I told you not to look at my code, she's messy :( -->
-	<title>Contact - Amanda Tsiang</title>
-	<meta name="description" content="Manda's current recommendations">
+	<title>Amanda Tsiang</title>
+	<meta name="description" content="Hey! I'm Amanda, a Toronto-based designer interested in seeing how design can bring people together.">
 	
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,7 +14,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156549100-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -23,7 +23,7 @@
 
   gtag('config', 'UA-156549100-1');
 </script>
-		<script type="text/javascript">
+	<script type="text/javascript">
 	
 	function rotatePlus(){
 	var checkmenu = document.getElementById("dropdown");
@@ -44,12 +44,14 @@
 
 
 
-<body>
+<body class="home">
 
 
 
 <header>
-<nav>
+
+
+	<nav>
 		<a href="index.html" class="logo"></a>
 		<a class="hide-text menu" id="plus-x" onclick="NavShow(); rotatePlus();"></a>
 		<ul class="navigation" id="dropdown">
@@ -69,14 +71,62 @@
 	
 </header>
 <div class="master-div">
-		
 	
-<div id="marquee">
-<h1>Call Me, Beep Me, If You Wanna Reach Me. Call Me, Beep Me, If You Wanna Reach Me. Call Me, Beep Me, If You Wanna Reach Me. Call Me, Beep Me, If You Wanna Reach Me. Call Me, Beep Me, If You Wanna Reach Me.</h1>
+	<h1 class="page-title">Work</h1>	
+
+	<div class="pro-box">
+		<a href="globowl.html" class="pro-img pro-1"></a>
+		<div class="pro-title">
+		<a href="globowl.html" class="project-name">Globowl</a>
+		<p class="project-type">UX/UI, Illustration</p>
+		</div>
+	</div>
+	
+	<div class="pro-box">
+		<a href="tcaf.html" class="pro-img pro-2"></a>
+		<div class="pro-title">
+		<a href="tcaf.html" class="project-name">TCAF Rebrand</a>
+		<p class="project-type">Branding, lllustration</p>
+		</div>
+	</div>
+	
+	
+	<div class="pro-box">
+		<a href="nix.html" class="pro-img pro-3"></a>
+		<div class="pro-title">
+		<a href="nix.html" class="project-name">Nix</a>
+		<p class="project-type">Web Design, Illustration</p>
+		</div>
+	</div>
+	
+	<div class="pro-box">
+		<a href="ciyu.html" class="pro-img pro-4"></a>
+		<div class="pro-title">
+		<a href="ciyu.html" class="project-name">Ciyu</a>
+		<p class="project-type">UX/UI, Illustration</p>
+		</div>
+	</div>
+	
+	<div class="pro-box">
+		<a class="pro-img pro-6"></a>
+		<div class="pro-title">
+		<h4>Coming Soon!</h4>
+		<p class="project-type">UX/UI, Illustration</p>
+		</div>
+	</div>
+	
+		<div class="pro-box">
+		<a class="pro-img pro-5"></a>
+		<div class="pro-title">
+		<h4>Coming Soon!</h4>
+		<p class="project-type">UX/UI</p>
+		</div>
+	</div>
+	
+
 </div>
 
- <p>Hey! I love meeting new people so if you'd like to grab bubble tea and have a chat about my work, comics, or anything else, you can <a href="mailto:hello@amandatsiang.design">send me an e-mail</a> or you can connect with me on <a href="https://www.linkedin.com/in/amanda-tsiang/">LinkedIn</a>!</p>
-
+<a href="play.html"><img src="img/fun-stuff.gif" class="circle-gif"></a>
 
 
 
@@ -90,33 +140,6 @@
 	else{
 	$(".navigation").css('display' , 'none');}
 }
-
-</script>
-
-<!-- MARQUEE SCRIPT -->
-<script type="text/javascript">
-	window.addEventListener('load', function () {
-	function go() {
-		i = i < width ? i + step : 1;
-		m.style.marginLeft = -i + 'px';
-	}
-	var i = 0,
-		step = 2,
-		space = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
-	var m = document.getElementById('marquee');
-	var t = m.innerHTML; //text
-	m.innerHTML = t + space;
-	m.style.position = 'absolute'; // http://stackoverflow.com/questions/2057682/determine-pixel-length-of-string-in-javascript-jquery/2057789#2057789
-	var width = (m.clientWidth + 1);
-	m.style.position = '';
-	m.addEventListener('mouseenter', function () {
-		step = 0;
-	}, true);
-	m.addEventListener('mouseleave', function () {
-		step = 2;
-	}, true);
-	var x = setInterval(go, 20);
-}, true);
 </script>
 
 <footer>
