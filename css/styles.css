@@ -624,19 +624,19 @@ figure p{
 	font-family: "Space Mono", sans-serif;
 }
 
-.project-page a:link{
+.project-page p a:link{
 	color: #F86653;
 }
 
-.project-page a:visited{
+.project-page p a:visited{
 	color: #F86653;
 }
 
-.project-page a:hover{
+.project-page p a:hover{
 	color: #6A94FF;
 }
 
-.project-page a:active{
+.project-page p a:active{
 	color: #FFC9C2;
 }
 
