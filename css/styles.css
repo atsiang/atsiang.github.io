@@ -8,9 +8,7 @@ body{
 	position: relative;
 }
 
-.coral{
-	color: 
-}
+
 
 .master-div{
 	width: 95%;
@@ -364,11 +362,6 @@ h4, .project-name{
 
 /* ABOUT STYLES */
 
-.ily{
-	width: 30px;
-	height: 30px;
-	padding-top: 7px;
-}
 .eat p{
 	text-align: center;
 }
@@ -471,11 +464,13 @@ figure p{
 
 /* MARQUEE*/
 
-#marquee, #marquee2{
+#marquee{
 	overflow: hidden;
 	white-space: nowrap;
 	width: fit-content;
 }
+
+
 
 /* END OF MARQUEE STYLES */
 
@@ -624,19 +619,19 @@ figure p{
 	font-family: "Space Mono", sans-serif;
 }
 
-.project-page p a:link{
+.project-page a:link{
 	color: #F86653;
 }
 
-.project-page p a:visited{
+.project-page a:visited{
 	color: #F86653;
 }
 
-.project-page p a:hover{
+.project-page a:hover{
 	color: #6A94FF;
 }
 
-.project-page p a:active{
+.project-page a:active{
 	color: #FFC9C2;
 }
 
