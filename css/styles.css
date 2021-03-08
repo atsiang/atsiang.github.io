@@ -474,7 +474,9 @@ figure p{
  	overflow: hidden;
   	position: relative;
 	height: 50px;
-	margin-top: 1.2em;
+	padding-top: 2em;
+	width: fit-content;
+	white-space: nowrap;
 }
 
         #marquee2 h1 {
