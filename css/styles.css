@@ -464,7 +464,7 @@ figure p{
 
 /* MARQUEE*/
 
-#marquee{
+#marquee, #marquee2{
 	overflow: hidden;
 	white-space: nowrap;
 	width: fit-content;
