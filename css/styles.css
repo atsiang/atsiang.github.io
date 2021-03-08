@@ -473,6 +473,8 @@ figure p{
 #marquee2{
  	overflow: hidden;
   	position: relative;
+	height: 50px;
+	margin-top: 1.2em;
 }
 
         #marquee2 h1 {
