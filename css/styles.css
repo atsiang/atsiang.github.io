@@ -401,26 +401,26 @@ h4, .project-name{
 	margin: 0 auto 3em auto;
 }
 
-.hobbies a:link{
+.hobbies a:link, .community-box a:link{
 	text-decoration: none;
 	color: #F86653;
 	font-family: "Space Mono", sans-serif;
 	font-weight: 700;
 }
 
-.hobbies a:visited{
+.hobbies a:visited, .community-box a:visited{
 	text-decoration: none;
 	color: #F86653;
 	font-family: "Space Mono", sans-serif;
 	font-weight: 700;
 }
 
-.hobbies a:hover{
+.hobbies a:hover, .community-box a:hover{
 	text-decoration: none;
 	color: #6A94FF;
 }
 
-.hobbies a:active{
+.hobbies a:active, .community-box a:active{
 	color: #FFC9C2;
 }
 
