@@ -341,7 +341,7 @@ footer a:hover{
 }
 
 .pro-5{
-	background-image: url("../img/wavelength.png");
+	background-image: url("../img/wavelength-thumb.jpg");
 }
 
 .pro-6{
@@ -1108,7 +1108,7 @@ div.project-box{
 }
 
 .pro-5:hover{
-	background-image: url("../img/wavelength.png");
+	background-image: url("../img/wavelength-hover.gif");
 	transition: 0.5s;
 }
 
