@@ -474,6 +474,7 @@ figure p{
   	position: relative;
 	height: 50px;
 	padding-top: 2em;
+	padding-bottom: 2em;
 	white-space: nowrap;
 }
 
