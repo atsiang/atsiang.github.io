@@ -155,38 +155,67 @@ nav ul li a{
 /* FOOTER STYLES */
 
 footer{
-	background-color: #F86653;
+	background-color: #303030;
 	width: 110%;
-	padding: 0.3em;
+	padding: 3em;
 	position: relative;
 	bottom: -1em;
-	left: -1.3em;
-	text-align: center;
+	left: 0em;
+	text-align: left;
 }
 
 footer p{
 	color: #FFF7F6;
+	font-size: 0.7em;
+	font-family: "Epilogue", sans-serif;
+}
+
+.footy-h{
+	text-transform: uppercase;
 	font-family: "Space Mono", sans-serif;
 	font-size: 0.8em;
 }
 
-footer img{
-	width: 16px;
-	vertical-align: middle;
-	padding-bottom: 3px;
+footer ul{
+	list-style-type: none;
+	padding-left: 0;
 }
 
-footer a:hover{
-	opacity: 0.5;
+footer ul li{
+	line-height: 1.35em;
 }
 
-.contact footer{
-	position: fixed;
-	bottom: 0;
+.footy-box{
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
 }
 
-.contact footer p{
-	margin: 1em auto;
+.footy-box-right{
+	width: 120px;
+}
+
+.footy-box-left{
+	width: 165px;
+} 
+
+.footy-box ul li a:link{
+	font-family: "Epilogue", sans-serif;
+	font-size: 0.7em;
+	color: #FFF7F6;
+	text-decoration: none;
+}
+
+.footy-box ul li a:visited{
+	color: #FFF7F6;
+}
+
+.footy-box ul li a:hover{
+	color: #F86653;
+}
+
+.footy-box ul li a:active{
+	color: #6E8AF0;
 }
 
 /* END OF FOOTER STYLES */
