@@ -1206,13 +1206,13 @@ footer{
 }
 
 .eat-8-front{
-	background-image: url('../img/cartoon-me.jpg');
+	background-image: url('../img/moi2.jpg');
 	background-size: cover;
 	background-position: center center;
 }
 
 .eat-8-back{
-	background-image: url('../img/moi2.jpg');
+	background-image: url('../img/cartoon-me.jpg');
 	background-size: cover;
 	background-position: center center;
 }
