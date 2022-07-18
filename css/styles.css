@@ -111,14 +111,14 @@ a.menu{
 .navigation{display:none;}
 
 nav{
-	background-color: #FFC9C2;
+	background-color: #303030;
 	padding: 1em 0;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 3;
-	border-bottom: 2px solid #6A94FF;
+	/* border-bottom: 2px solid #6A94FF; */
 }
 
 nav ul{
@@ -136,7 +136,7 @@ nav ul li{
 
 nav ul li a{
 	font-family: "Space Mono", sans-serif;
-	color: #6A94FF;
+	color: #FBF1F1;
 	text-decoration: none;
 	font-size: 1.2em;
 	line-height: 2em;
@@ -941,11 +941,11 @@ nav ul li a{
 }
 
 nav ul li a:link{
-	color: #6A94FF;
+	color: #FBF1F1;
 }
 
 nav ul li a:visited{
-	color: #6A94FF;
+	color: #FBF1F1;
 }
 
 nav ul li a:hover{
@@ -953,7 +953,7 @@ nav ul li a:hover{
 }
 
 nav ul li a:active{
-	color: #FFF7F6;
+	color: #6A94FF;
 }
 
 a.logo:hover{
