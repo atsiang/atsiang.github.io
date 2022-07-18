@@ -226,6 +226,7 @@ footer ul li{
 /* HOME STYLES */
 .home-header{
 	background-image:url("../img/pinkbg.png");
+	background-position: center center;
 	width: 100%;
 	padding: 5em 0;
 	margin: 4em auto 0 auto;
@@ -893,6 +894,7 @@ footer{
 .home-header{
 	margin-top: -1em;
 	margin-bottom: 3em;
+	padding: 6.5em 0;
 }
 
 .circle-gif{
