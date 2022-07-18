@@ -366,7 +366,7 @@ footer ul li{
 }
 
 .pro-4{
-	background-image: url("../img/ciyu.jpg");
+	background-image: url("../img/cohere.png");
 }
 
 .pro-5{
@@ -1137,7 +1137,7 @@ div.project-box{
 }
 
 .pro-4:hover{
-	background-image: url("../img/ciyu-hover.gif");
+	background-image: url("../img/cohere-hover.png");
 	transition: 0.5s;
 }
 
